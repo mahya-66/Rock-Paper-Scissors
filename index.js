@@ -19,9 +19,9 @@ const play = (userChoice) => {
     } else {
         message = "You lost!";
         compScore = compScore + 1;
-    }
+    };
     document.getElementById("area").innerText = "You chose: " + userChoice + " | Computer chose: " + compChoice;
     document.getElementById("userScore").innerText = userScore;
     document.getElementById("compScore").innerText = compScore;
     document.getElementById("message").innerText = message;
-}
+};
